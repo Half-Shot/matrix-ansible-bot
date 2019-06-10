@@ -7,7 +7,7 @@ A matrix bot for doing all sorts of ansible operations
 git clone https://github.com/Half-Shot/matrix-ansible-bot
 cd matrix-ansible-bot
 npm i # yarn
-npm run tsc # or yarn build
+npm run build # or yarn build
 ```
 
 
