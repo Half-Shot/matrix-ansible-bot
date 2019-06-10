@@ -1,0 +1,23 @@
+homeserver:
+    # URL for the matrix server
+    url: https://matrix.virtucon.com
+    # storage location for bot state, can leave as is
+    storage: ./store.json
+    # matrix access token for bot
+    accessToken: matrix-access-token
+    # add users here who can invite and control the bot
+    adminUsers:
+        - "@drevil:virtucon.com"
+
+playbooks:
+    # name of your playbook when referencing it
+    pbname:
+	# location of your playbook file
+        location: pb.yml
+	# automatically pull the container git repo
+        gitautopull: true
+
+# global ansible config
+ansible:
+    # playbook binary
+    binary: "/usr/bin/ansible-playbook"
