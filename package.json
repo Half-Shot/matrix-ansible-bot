@@ -19,7 +19,7 @@
     "command-line-usage": "^5.0.5",
     "js-yaml": "^3.13.1",
     "matrix-bot-sdk": "^0.3.8",
-    "simple-git": "^1.113.0",
+    "simple-git": "^3.15.0",
     "typescript": "^3.5.1"
   }
 }
